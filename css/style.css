@@ -1,0 +1,302 @@
+/* ここから下に記載していく */
+
+body {
+    max-width: 1200px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 0 3%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+ul {
+    display: flex;
+}
+
+.nav-li {
+    margin-left: 50px;
+}
+
+
+a { 
+    text-decoration: none; 
+    color:black;
+    font-size: 21px;
+}
+
+a:hover {
+    opacity:1;
+    color: gold;
+    font-weight:bold; 
+   }
+
+
+#main-visual{
+	position: relative;
+    width: 100%;
+}
+
+.visual-main-title {
+	position: absolute;
+    font-size: 44px;
+    font-weight: bolder;
+    text-align: center;
+    bottom: 250px;
+	width:100%;
+	color: #FFFFFF;
+}
+
+.visual-sub-title {
+	position: absolute;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+	bottom: 200px;
+	width:100%;
+	color: #FFFFFF;
+}
+
+
+
+.yellow-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 180%;
+}
+
+.black-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    width: 25%;
+}
+
+.margin30 {
+    padding-bottom: 30px;
+
+}
+
+.margin40 {
+    padding-bottom: 40px;
+}
+
+.margin60 {
+    padding-bottom: 60px;
+}
+
+.margin80 {
+    padding-bottom: 80px;
+}
+
+.margintop20 {
+    padding-top: 20px;
+}
+.margintop60 {
+    padding-top: 60px;
+}
+
+.course-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5px auto;
+}
+
+.course-photo {
+    width: 600px;
+}
+
+.course-words {
+    background-color: #efefef;
+}
+
+
+h4 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.course-a {
+    display: flexhttp://127.0.0.1:5500/img/course_02.jpg;
+    text-align: left;
+    padding-left: 50px;
+    width: 480px;
+    padding-bottom: 104px;
+}
+
+h5 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding-left: 130px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.course-b {
+    display: flex;
+    text-align: left;
+    padding-left: 130px;
+    padding-right: 40px;
+    width: 430px;
+    padding-bottom: 104px;
+}
+
+.news-ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.news-li {
+    margin-left: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.news-pics {
+}
+
+.news-date {
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+#access {
+    background-color: #efefef;
+}
+
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+.center {
+    justify-content: center;
+
+}
+
+#form {
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+table {
+    text-align: center;
+        width: 500px;
+
+}
+
+.form-left {
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    text-align: left;
+    text-align:initial;
+    padding-left: 20px;
+    padding-top: 7px;
+    height: 25px;
+    display: table-cell;
+}
+
+.form-right {
+    vertical-align: middle;
+    padding-left: 5px;
+    
+
+}
+
+
+
+
+th {
+    width:  200px;
+    padding: 10px 0;
+}
+
+td {
+    width: 270px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+.button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: gold;
+    transition: .3s;
+
+}
+
+.button:hover {
+    background-color: rgb(162, 161, 161);
+  }
+
+
+#footer {
+    background-color: #707070;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+}
